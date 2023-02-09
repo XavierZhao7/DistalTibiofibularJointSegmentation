@@ -7,7 +7,7 @@ The U-Net[1] is a convolutional network architecture for fast and precise segmen
 In our work, the square version dice loss is used to replace the original binary cross entropy loss. We also develop an attention block that combines spatial and channel-wise relationships of the feature maps in different levels. In our case, both the 3d and 2d solution for 3DUNet are developed on our thickened CBCT dataset.
 The dataset contains 40 3D CT-reconstruction images and ground truth segmentations of the fibula, tibia, and talus bones. After 2D / 3D image extraction and preprocessing, this project aims to improve the ability of UNet to detect distal tibiofibular joints by implementing attention mechanisms. Dice loss was introduced in the training process to prevent data imbalance. Dice score, AUC of Receiver operating characteristic, accuracy(ACC), precision(PRC), and Recall were included in the evaluation process to compare performances of the UNet, Dice-UNet, SCAUNet, 3D UNet and 3D UNet 2D on this dataset.
 
-###...
+### ...
 
 Complete report is upon request
 
